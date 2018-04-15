@@ -128,7 +128,7 @@ class Client
 
     /**
      * Team memberships API
-     * @param int $userId
+     * @param int $teamId
      * @return Path
      */
     public function teamMemberships(int $teamId): Path
