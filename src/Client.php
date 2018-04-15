@@ -137,5 +137,17 @@ class Client
 
         return $path;
     }
+
+    /**
+     * Networks API
+     * @param int $endpointId
+     * @return Path
+     */
+    public function networks(int $endpointId) : Path
+    {
+        $path = $this->client->createPath("endpoints/{$endpointId}/docker/networks");
+
+        return $path;
+    }
 }
 
