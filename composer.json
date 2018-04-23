@@ -1,5 +1,5 @@
 {
-    "name": "mangati/portainer-api",
+    "name": "swarm.sh/portainer-api",
     "description": "Portainer API client",
     "type": "library",
     "license": "MIT",
