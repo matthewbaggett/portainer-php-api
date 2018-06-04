@@ -18,6 +18,11 @@ class Client
         $this->client = new BaseClient($endpoint);
     }
 
+    public function getApiTime()
+    {
+        return $this->client->getApiTime();
+    }
+
     /**
      * Auth alias
      * @param string $user
